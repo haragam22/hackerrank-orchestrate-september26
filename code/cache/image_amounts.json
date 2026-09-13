@@ -1,0 +1,98 @@
+{
+  "event_253": {
+    "amount": 4365000,
+    "currency": "IDR",
+    "source_image": "image_01",
+    "note": "Payslip 'PAY SLIP Aug-2019'. Net Pay = IDR 4,365,000 (matches event 'August 2019 net salary'). moondream (local VLM) hallucinated 'GBP 0.82' on this image and was rejected -- verified by direct read instead, per ARCHITECTURE.md 4.0a's mandatory-manual-verification requirement."
+  },
+  "event_1442": {
+    "amount": 100000,
+    "currency": "INR",
+    "source_image": "image_02",
+    "note": "Rent Receipt. Event is 'Outstanding rent balance' (scheduled) -> used 'Balance Due: 1,00,000.00' (Indian digit grouping = 100,000), not the 'Total Amount to be Received' (2,00,000) or 'Amount Received' (1,00,000 already paid)."
+  },
+  "event_1545": {
+    "amount": 41272.00,
+    "currency": "INR",
+    "source_image": "image_03",
+    "note": "Riddhi Siddhi grocery bill. Net Amount / Cash Paid = 41272.00."
+  },
+  "event_1700": {
+    "amount": 2854.00,
+    "currency": "INR",
+    "source_image": "image_04",
+    "note": "Grocery delivery app screenshot. 'Item Bill' = Rs 2854.00 (verified by summing all 13 line items exactly). The 'TOTAL ORDER BILL DETAILS' section below is cropped off-screen so a delivery fee, if any, is not visible -- used the one clearly legible total rather than guessing an amount below the crop."
+  },
+  "event_1786": {
+    "amount": 704.05,
+    "currency": "INR",
+    "source_image": "image_05",
+    "note": "Airtel telecom bill. Event is 'Outstanding telecom bill' (pending, event_date 2026-02-06) -> used 'Amount due till 06-Feb-2026' = 704.05, which matches the event date exactly (not the 822.05 late-fee figure for after that date)."
+  },
+  "event_3051": {
+    "amount": 1995.00,
+    "currency": "INR",
+    "source_image": "image_06",
+    "note": "Blink Commerce (Grofers) grocery tax invoice. Total = 1995.00."
+  },
+  "event_3231": {
+    "amount": 8528,
+    "currency": "INR",
+    "source_image": "image_07",
+    "note": "Nagarjuna 1984 KMR restaurant tax invoice, stamped PAID. Used the explicit 'Grand Total (RS): 8528' line (the itemised Total before rounding was 8528.10)."
+  },
+  "event_4535": {
+    "amount": 15339.00,
+    "currency": "INR",
+    "source_image": "image_08",
+    "note": "Society maintenance payment receipt (paytm/ICICI). 'Total Amount Received' = Rs 15,339.00."
+  },
+  "event_5170": {
+    "amount": 723.00,
+    "currency": "INR",
+    "source_image": "image_09",
+    "note": "Water bill payment receipt (paytm/Indian Bank). 'Total Amount Received' = Rs 723.00."
+  },
+  "event_6033": {
+    "amount": 79679.26,
+    "currency": "INR",
+    "source_image": "image_10",
+    "note": "Large grocery tax invoice (22 line items across two pages). Event is 'Large grocery tax invoice' (pending) -> used 'Balance Due' = Rs 79,679.26 (equals the Total, nothing paid yet)."
+  },
+  "event_6859": {
+    "amount": 3650.00,
+    "currency": "INR",
+    "source_image": "image_11",
+    "note": "Jeevan Hospital provisional bill. Event is 'Hospital bill payable' (scheduled) -> used 'Balance: 3650.00' (Amount Paid so far is 0.00)."
+  },
+  "event_7307": {
+    "amount": 33.50,
+    "currency": "USD",
+    "source_image": "image_12",
+    "note": "CityCab Service taxi receipt. Total = $33.50 (Cash Paid $40.00, Change $6.50 confirms it)."
+  },
+  "event_7941": {
+    "amount": 2298,
+    "currency": "INR",
+    "source_image": "image_13",
+    "note": "DailyObjects order confirmation. 'Total paid' = Rs 2,298 (2 tote bags, free delivery)."
+  },
+  "event_9421": {
+    "amount": 4543.00,
+    "currency": "INR",
+    "source_image": "image_14",
+    "note": "Handwritten pharmacy bill. Printed 'TOTAL' digit is smudged/ambiguous; used the sum of the 5 legible line items (1500+724+796+550+303+670=4543), which is internally consistent."
+  },
+  "event_9806": {
+    "amount": 9968.00,
+    "currency": "INR",
+    "source_image": "image_15",
+    "note": "IndiGo (InterGlobe Aviation) flight invoice. 'Grand Total' (incl. taxes) = Rs 9,968.00."
+  },
+  "event_10521": {
+    "amount": 393.22,
+    "currency": "INR",
+    "source_image": "image_16",
+    "note": "EV charging session invoice (Krishnagiri). 'Total' = Rs 393.22 (energy + CGST 9% + SGST 9%)."
+  }
+}

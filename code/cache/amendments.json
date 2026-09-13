@@ -1,0 +1,934 @@
+{
+  "event_amendments": {
+    "event_2165": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_17"
+    },
+    "event_3491": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_28"
+    },
+    "event_4535": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_35"
+    },
+    "event_7941": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_64"
+    },
+    "event_9420": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_75"
+    },
+    "event_10521": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_86"
+    },
+    "event_10699": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_88"
+    },
+    "event_11129": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_92"
+    },
+    "event_11925": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_99"
+    },
+    "event_13032": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_108"
+    },
+    "event_13207": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_110"
+    },
+    "event_13663": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_114"
+    },
+    "event_14026": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_117"
+    },
+    "event_17401": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_150"
+    },
+    "event_20615": {
+      "action": "confirm_event",
+      "target_series": null,
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_174"
+    }
+  },
+  "series_amendments": [
+    {
+      "message_id": "message_86",
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1296,
+      "currency": "USD",
+      "effective_date": "2026-09-15",
+      "confidence": "high",
+      "note": "embedded alongside the EV-charge confirmation in the same message; no event_id of its own"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 42750000.0,
+      "currency": "IDR",
+      "effective_date": "2025-08-15",
+      "confidence": "high",
+      "message_id": "message_01"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1037.52,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_04"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2024-09-23",
+      "confidence": "high",
+      "message_id": "message_05"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1422.85,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_06"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_09"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2717.0,
+      "currency": "EUR",
+      "effective_date": "2025-08-15",
+      "confidence": "medium",
+      "message_id": "message_10"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1661.0,
+      "currency": "EUR",
+      "effective_date": "2026-01-15",
+      "confidence": "high",
+      "message_id": "message_11"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_21"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 54120.0,
+      "currency": "ZAR",
+      "effective_date": "2025-02-15",
+      "confidence": "high",
+      "message_id": "message_22"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2988.0,
+      "currency": "USD",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_26"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 21090000.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_27"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1760.0,
+      "currency": "EUR",
+      "effective_date": "2024-06-15",
+      "confidence": "high",
+      "message_id": "message_29"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 148000.0,
+      "currency": "INR",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_30"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 32870000.0,
+      "currency": "IDR",
+      "effective_date": "2024-09-15",
+      "confidence": "high",
+      "message_id": "message_31"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 115000.0,
+      "currency": "INR",
+      "effective_date": "2025-02-15",
+      "confidence": "high",
+      "message_id": "message_32"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 17290000.0,
+      "currency": "IDR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_33"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 31464000.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_36"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 126000.0,
+      "currency": "INR",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_37"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 42460.0,
+      "currency": "ZAR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_40"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 25840000.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_42"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 530.4,
+      "currency": "USD",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_44"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_45"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2025-02-23",
+      "confidence": "high",
+      "message_id": "message_50"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 18700.0,
+      "currency": "ZAR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_54"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_57"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 62000.0,
+      "currency": "INR",
+      "effective_date": "2025-05-15",
+      "confidence": "medium",
+      "message_id": "message_63"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 8618400.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_65"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 251000.0,
+      "currency": "INR",
+      "effective_date": "2026-01-15",
+      "confidence": "medium",
+      "message_id": "message_66"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2025-05-23",
+      "confidence": "high",
+      "message_id": "message_73"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 164880.0,
+      "currency": "INR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_77"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2123.0,
+      "currency": "EUR",
+      "effective_date": "2025-05-15",
+      "confidence": "high",
+      "message_id": "message_81"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_84"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 627.0,
+      "currency": "EUR",
+      "effective_date": "2024-06-15",
+      "confidence": "high",
+      "message_id": "message_85"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 148200.0,
+      "currency": "INR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_87"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1188.0,
+      "currency": "EUR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_89"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 176000.0,
+      "currency": "INR",
+      "effective_date": "2025-05-15",
+      "confidence": "medium",
+      "message_id": "message_91"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 50160.0,
+      "currency": "ZAR",
+      "effective_date": "2024-09-15",
+      "confidence": "medium",
+      "message_id": "message_97"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2177.28,
+      "currency": "USD",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_100"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2025-05-23",
+      "confidence": "high",
+      "message_id": "message_101"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1193.4,
+      "currency": "USD",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_102"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_103"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 828.0,
+      "currency": "USD",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_104"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 31900.0,
+      "currency": "ZAR",
+      "effective_date": "2025-02-15",
+      "confidence": "high",
+      "message_id": "message_107"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 864.0,
+      "currency": "USD",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_111"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1529.0,
+      "currency": "EUR",
+      "effective_date": "2026-04-15",
+      "confidence": "medium",
+      "message_id": "message_113"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 893.75,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_115"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 46170000.0,
+      "currency": "IDR",
+      "effective_date": "2024-09-15",
+      "confidence": "high",
+      "message_id": "message_116"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1628.0,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_119"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 84000.0,
+      "currency": "INR",
+      "effective_date": "2025-05-15",
+      "confidence": "medium",
+      "message_id": "message_120"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 23940000.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_122"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 26790000.0,
+      "currency": "IDR",
+      "effective_date": "2025-11-15",
+      "confidence": "high",
+      "message_id": "message_125"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 29070000.0,
+      "currency": "IDR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_126"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 30400000.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_127"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_129"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2025-05-23",
+      "confidence": "high",
+      "message_id": "message_131"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 137150.0,
+      "currency": "INR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_132"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1924.56,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_138"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1731.6,
+      "currency": "USD",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_140"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 59000.0,
+      "currency": "INR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_143"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 31889.0,
+      "currency": "ZAR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_148"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 627.0,
+      "currency": "EUR",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_151"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1750.32,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_153"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2025-08-23",
+      "confidence": "high",
+      "message_id": "message_154"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1222.65,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_155"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 38190000.0,
+      "currency": "IDR",
+      "effective_date": "2025-11-15",
+      "confidence": "high",
+      "message_id": "message_156"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_160"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2024.0,
+      "currency": "EUR",
+      "effective_date": "2026-01-15",
+      "confidence": "high",
+      "message_id": "message_162"
+    },
+    {
+      "action": "amend_date",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": "2025-02-23",
+      "confidence": "high",
+      "message_id": "message_165"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_166"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2424.0,
+      "currency": "USD",
+      "effective_date": "2026-07-15",
+      "confidence": "high",
+      "message_id": "message_169"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1914.0,
+      "currency": "EUR",
+      "effective_date": "2026-04-15",
+      "confidence": "medium",
+      "message_id": "message_170"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1346.4,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_171"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2827.0,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_180"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 2772.0,
+      "currency": "EUR",
+      "effective_date": "2024-06-15",
+      "confidence": "high",
+      "message_id": "message_181"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 16910000.0,
+      "currency": "IDR",
+      "effective_date": "2025-11-15",
+      "confidence": "high",
+      "message_id": "message_182"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_186"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 912.0,
+      "currency": "USD",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_187"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 62000.0,
+      "currency": "INR",
+      "effective_date": "2026-01-15",
+      "confidence": "high",
+      "message_id": "message_188"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_189"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 968.0,
+      "currency": "EUR",
+      "effective_date": "2025-08-15",
+      "confidence": "high",
+      "message_id": "message_190"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_192"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 1528.56,
+      "currency": "EUR",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_193"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 702.0,
+      "currency": "USD",
+      "effective_date": null,
+      "confidence": "medium",
+      "message_id": "message_195"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 214000.0,
+      "currency": "INR",
+      "effective_date": "2024-06-15",
+      "confidence": "high",
+      "message_id": "message_200"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 48260000.0,
+      "currency": "IDR",
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_203"
+    },
+    {
+      "action": "cancel_event",
+      "target_series": "salary",
+      "new_amount": null,
+      "currency": null,
+      "effective_date": null,
+      "confidence": "high",
+      "message_id": "message_206"
+    },
+    {
+      "action": "amend_amount",
+      "target_series": "salary",
+      "new_amount": 38280.0,
+      "currency": "ZAR",
+      "effective_date": "2025-11-15",
+      "confidence": "high",
+      "message_id": "message_210"
+    }
+  ]
+}

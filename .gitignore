@@ -1,0 +1,5 @@
+
+log.txt
+.env
+code/__pycache__/
+**/__pycache__/

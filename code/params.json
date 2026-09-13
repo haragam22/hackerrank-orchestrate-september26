@@ -1,0 +1,133 @@
+{
+  "irregular_mode": "none",
+  "amount_estimator": "last",
+  "min_occurrences": 2,
+  "gap_tolerance": 2,
+  "pending_debits": true,
+  "horizon_inclusive": true,
+  "horizon_days": 90,
+  "irregular_min_occurrences": 1,
+  "_config_hash": "8223a5904767",
+  "_config_hash_note": "sha256(json.dumps({irregular_mode,amount_estimator,min_occurrences,gap_tolerance,pending_debits,horizon_inclusive,horizon_days}, sort_keys=True))[:12] -- recompute and compare before trusting an output.csv came from this config.",
+  "_calibration_scores_on_25_samples": {
+    "amount": 4,
+    "status": 17,
+    "method": 19,
+    "plan": 15,
+    "changes": 22,
+    "earliest": 8,
+    "row_exact": 4,
+    "n": 25,
+    "cap_pass": true,
+    "mape": 238.86,
+    "median_pct_err": 51.07,
+    "median_signed_pct_err": 47.19,
+    "non_binding_shortfall": {
+      "request_01": 0.0,
+      "request_09": 0.0,
+      "request_12": 0.0,
+      "request_16": 0.0
+    }
+  },
+  "_runner_ups": [
+    {
+      "irregular_mode": "none",
+      "amount_estimator": "last",
+      "min_occurrences": 2,
+      "gap_tolerance": 2,
+      "pending_debits": true,
+      "inclusive": true,
+      "irregular_min_occurrences": 2,
+      "amount": 4,
+      "status": 17,
+      "method": 19,
+      "plan": 15,
+      "changes": 22,
+      "earliest": 8,
+      "row_exact": 4,
+      "n": 25,
+      "cap_pass": true,
+      "mape": 238.86,
+      "median_pct_err": 51.07,
+      "median_signed_pct_err": 47.19,
+      "non_binding_shortfall": {
+        "request_01": 0.0,
+        "request_09": 0.0,
+        "request_12": 0.0,
+        "request_16": 0.0
+      }
+    },
+    {
+      "irregular_mode": "none",
+      "amount_estimator": "last",
+      "min_occurrences": 2,
+      "gap_tolerance": 2,
+      "pending_debits": true,
+      "inclusive": true,
+      "irregular_min_occurrences": 3,
+      "amount": 4,
+      "status": 17,
+      "method": 19,
+      "plan": 15,
+      "changes": 22,
+      "earliest": 8,
+      "row_exact": 4,
+      "n": 25,
+      "cap_pass": true,
+      "mape": 238.86,
+      "median_pct_err": 51.07,
+      "median_signed_pct_err": 47.19,
+      "non_binding_shortfall": {
+        "request_01": 0.0,
+        "request_09": 0.0,
+        "request_12": 0.0,
+        "request_16": 0.0
+      }
+    },
+    {
+      "irregular_mode": "none",
+      "amount_estimator": "last",
+      "min_occurrences": 2,
+      "gap_tolerance": 2,
+      "pending_debits": true,
+      "inclusive": false,
+      "irregular_min_occurrences": 1,
+      "amount": 4,
+      "status": 17,
+      "method": 19,
+      "plan": 15,
+      "changes": 22,
+      "earliest": 8,
+      "row_exact": 4,
+      "n": 25,
+      "cap_pass": true,
+      "mape": 238.86,
+      "median_pct_err": 51.07,
+      "median_signed_pct_err": 47.19,
+      "non_binding_shortfall": {
+        "request_01": 0.0,
+        "request_09": 0.0,
+        "request_12": 0.0,
+        "request_16": 0.0
+      }
+    }
+  ],
+  "_leave_one_out": {
+    "config_frequency": {
+      "{\"amount_estimator\": \"last\", \"gap_tolerance\": 2, \"inclusive\": true, \"irregular_min_occurrences\": 1, \"irregular_mode\": \"none\", \"min_occurrences\": 2, \"pending_debits\": true}": 23,
+      "{\"amount_estimator\": \"median\", \"gap_tolerance\": 5, \"inclusive\": true, \"irregular_min_occurrences\": 1, \"irregular_mode\": \"flat_daily_burn\", \"min_occurrences\": 2, \"pending_debits\": true}": 1,
+      "{\"amount_estimator\": \"last\", \"gap_tolerance\": 2, \"inclusive\": true, \"irregular_min_occurrences\": 1, \"irregular_mode\": \"none\", \"min_occurrences\": 3, \"pending_debits\": true}": 1
+    },
+    "loo_median_abs_pct_err_binding": 59.82,
+    "all25_median_abs_pct_err_binding": 51.07,
+    "non_binding_cap_failures": [
+      "request_01"
+    ],
+    "fold_agreement_on_top_irregular_mode": 24
+  },
+  "_request01_backsolve": {
+    "backsolved_daily_rate_for_exact_cap": 12.95,
+    "flat_daily_burn_fixed_window_rate": 206.38,
+    "historical_last_90d_daily_debit_rate": 685.79
+  }
+}
